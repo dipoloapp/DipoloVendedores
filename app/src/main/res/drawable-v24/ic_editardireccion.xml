@@ -1,0 +1,20 @@
+<!--
+  ~ Copyright (c) 2020. Todos los Derechos Reservados.
+  ~ Código escrito y desarrollado por Ricardo Morgado.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="55.37dp"
+    android:height="55.37dp"
+    android:viewportWidth="55.37"
+    android:viewportHeight="55.37">
+  <path
+      android:pathData="M27.68,0L27.69,0A27.68,27.68 0,0 1,55.37 27.68L55.37,27.69A27.68,27.68 0,0 1,27.69 55.37L27.68,55.37A27.68,27.68 0,0 1,0 27.69L0,27.68A27.68,27.68 0,0 1,27.68 0z"
+      android:fillColor="#999"/>
+  <path
+      android:pathData="M32.23,18.38 L36,22.11 22.07,36l-5.39,1.5 1.55,-5.13 14,-14m0,-2.12L17.13,31.33a1.17,1.17 0,0 0,-0.31 0.51L15.1,37.5a1.23,1.23 0,0 0,1.18 1.59,1.32 1.32,0 0,0 0.33,-0.05l5.93,-1.64a1.27,1.27 0,0 0,0.54 -0.31l15,-15 -5.85,-5.85Z"
+      android:fillColor="#fff"/>
+  <path
+      android:pathData="M36.89,14.61h0a2.49,2.49 0,0 1,1.58 0.55,2.65 2.65,0 0,1 0.47,3.65l-3.68,-3.68a2.89,2.89 0,0 1,1.63 -0.52m0,-1.5a4.3,4.3 0,0 0,-3.06 1.28l-0.72,0.71L39,21l0.8,-0.8A4.14,4.14 0,0 0,39.41 14a4,4 0,0 0,-2.52 -0.88Z"
+      android:fillColor="#fff"/>
+</vector>

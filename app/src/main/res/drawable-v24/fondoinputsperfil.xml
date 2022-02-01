@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright (c) 2020. Todos los Derechos Reservados.
+  ~ Código escrito y desarrollado por Ricardo Morgado.
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#E6E6E6" />
+    <corners
+        android:radius="27dp"/>
+</shape>

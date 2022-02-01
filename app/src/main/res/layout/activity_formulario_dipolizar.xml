@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondohome"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:id="@+id/solicitudenviada"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:elevation="10dp"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/neomedium"
+            android:text="¡Muy buen trabajo!"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Te avisaremos por correo lo que suceda con tu solicitud. De ser aprobada esta empresa, le enviaremos los accesos a Dipolo Business directamente a la empresa por correo CC a ti."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/neomedium"
+            android:letterSpacing="0.04"
+            android:onClick="listoVolver"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="LISTO"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:cornerRadius="100dp"
+            app:iconGravity="textEnd"
+            app:iconSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:rippleColor="@color/colorPrimaryDark"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp">
+
+                <ImageButton
+                    android:id="@+id/volver"
+                    style="@style/AppTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="volver"
+                    app:srcCompat="@drawable/ic_volver_azul"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/neomedium"
+                    android:text="Dipolizar Empresa"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:addStatesFromChildren="false"
+                    android:transitionName="CardEmpresa"
+                    app:cardBackgroundColor="#F3F3F3"
+                    app:cardCornerRadius="27dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp">
+
+
+                        <TextView
+                            android:id="@+id/nombre_empresa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/neomedium"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="20dp"
+                    android:addStatesFromChildren="false"
+                    android:transitionName="CardEmpresa"
+                    app:cardCornerRadius="27dp"
+                    app:cardElevation="2dp"
+                    app:layout_constraintEnd_toStartOf="@+id/g_derecha"
+                    app:layout_constraintStart_toStartOf="@+id/g_izquierda"
+                    app:layout_constraintTop_toBottomOf="@+id/namelugar">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:foregroundGravity="center"
+                            android:transitionName="imageMain"
+                            app:srcCompat="@drawable/ic_filed_mail" />
+
+                        <EditText
+                            android:id="@+id/empresa_correo"
+                            style="@style/AppTheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="1"
+                            android:background="@color/tran"
+                            android:ems="10"
+                            android:hint="Correo del administrador"
+                            android:inputType="textPersonName"
+                            android:textColor="#585857"
+                            android:textSize="14sp"
+                            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:addStatesFromChildren="false"
+                    android:transitionName="CardEmpresa"
+                    app:cardCornerRadius="27dp"
+                    app:cardElevation="2dp"
+                    app:layout_constraintEnd_toStartOf="@+id/g_derecha"
+                    app:layout_constraintStart_toStartOf="@+id/g_izquierda"
+                    app:layout_constraintTop_toBottomOf="@+id/namelugar">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:foregroundGravity="center"
+                            android:transitionName="imageMain"
+                            app:srcCompat="@drawable/ic_filed_phone" />
+
+                        <EditText
+                            android:id="@+id/empresa_telefono"
+                            style="@style/AppTheme"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent"
+                            android:ems="10"
+                            android:hint="Telefono del administrador"
+                            android:inputType="textPersonName"
+                            android:textColor="#585857"
+                            android:textSize="14sp"
+                            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:addStatesFromChildren="false"
+                    android:transitionName="CardEmpresa"
+                    app:cardCornerRadius="27dp"
+                    app:cardElevation="2dp"
+                    app:layout_constraintEnd_toStartOf="@+id/g_derecha"
+                    app:layout_constraintStart_toStartOf="@+id/g_izquierda"
+                    app:layout_constraintTop_toBottomOf="@+id/namelugar">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="18dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:foregroundGravity="center"
+                            android:transitionName="imageMain"
+                            app:srcCompat="@drawable/ic_contrasena"
+                            app:tint="@color/colorAccent" />
+
+                        <EditText
+                            android:id="@+id/empresa_rut"
+                            style="@style/AppTheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_weight="1"
+                            android:background="@color/tran"
+                            android:ems="10"
+                            android:hint="RUT de la empresa"
+                            android:inputType="textPersonName"
+                            android:textColor="#585857"
+                            android:textSize="14sp"
+                            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:addStatesFromChildren="false"
+                    android:transitionName="CardEmpresa"
+                    app:cardCornerRadius="27dp"
+                    app:cardElevation="2dp"
+                    app:layout_constraintEnd_toStartOf="@+id/g_derecha"
+                    app:layout_constraintStart_toStartOf="@+id/g_izquierda"
+                    app:layout_constraintTop_toBottomOf="@+id/namelugar">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="15dp"
+                        android:paddingBottom="10dp">
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:foregroundGravity="center"
+                            android:transitionName="imageMain"
+                            app:srcCompat="@drawable/ic_agregarproductos" />
+
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_weight="1"
+                            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <TextView
+                            android:id="@+id/telefono_empresa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Subir contrato"
+                            android:textAlignment="center"
+                            android:textSize="16sp" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/button_contrato"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:backgroundTint="#838383"
+                            android:fontFamily="@font/neomedium"
+                            android:letterSpacing="0.04"
+                            android:onClick="subirContrato"
+                            android:text="SELECCIONAR"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            app:cornerRadius="100dp"
+                            app:iconGravity="textEnd"
+                            app:iconSize="14dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:rippleColor="#5A5A5A" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="4dp"
+                    app:cardMaxElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <TextView
+                            android:id="@+id/correo_empresa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Subir comprobante de pago"
+                            android:textAlignment="center"
+                            android:textSize="16sp" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/button_comprobante"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:backgroundTint="#838383"
+                            android:fontFamily="@font/neomedium"
+                            android:letterSpacing="0.04"
+                            android:onClick="subirComPago"
+                            android:text="SELECCIONAR"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            app:cornerRadius="100dp"
+                            app:iconGravity="textEnd"
+                            app:iconSize="14dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:rippleColor="#5A5A5A" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bordesredazul_invert"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Estas a punto de Dipolizar esta empresa, revisaremos los datos que nos enviarás y te confirmaremos cuando sea aprobada. En caso de no ser aprobada te lo notificaremos."
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="8dp"
+                    android:elevation="10dp"
+                    android:fontFamily="@font/neomedium"
+                    android:letterSpacing="0.04"
+                    android:onClick="enviarFormulario"
+                    android:text="ENVIAR FORMULARIO"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    app:backgroundTint="#FFFFFF"
+                    app:cornerRadius="100dp"
+                    app:iconGravity="textEnd"
+                    app:iconSize="14dp"
+                    app:iconTint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

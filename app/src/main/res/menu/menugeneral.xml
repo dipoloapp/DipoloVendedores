@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (c) 2020. Todos los Derechos Reservados.
+  ~ Código escrito y desarrollado por Ricardo Morgado.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicio"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/llamadas"
+        android:enabled="true"
+        android:icon="@drawable/ic_llamadas"
+        android:title="Llamadas" />
+
+    <item
+        android:id="@+id/biblioteca"
+        android:enabled="true"
+        android:icon="@drawable/ic_biblioteca"
+        android:title="Biblioteca" />
+
+    <item
+        android:id="@+id/perfil"
+        android:enabled="true"
+        android:icon="@drawable/ic_perfilic"
+        android:title="Perfil" />
+</menu>

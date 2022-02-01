@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2265625" />
+        <entry key="app/src/main/res/drawable-v24/bordenoseleccionad.xml" value="0.144" />
+        <entry key="app/src/main/res/drawable-v24/degradadototal.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable-v24/fondoinputsperfil.xml" value="0.2325" />
+        <entry key="app/src/main/res/drawable-v24/ic_dipolindipolocode.xml" value="0.156" />
+        <entry key="app/src/main/res/drawable-v24/ic_editardireccion.xml" value="0.385" />
+        <entry key="app/src/main/res/drawable-v24/ic_filed_mail.xml" value="0.385" />
+        <entry key="app/src/main/res/drawable-v24/ic_flechair.xml" value="0.149" />
+        <entry key="app/src/main/res/drawable-v24/ic_guardarinfo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_icon_inicio.xml" value="0.1385" />
+        <entry key="app/src/main/res/drawable-v24/ic_icon_perfil.xml" value="0.385" />
+        <entry key="app/src/main/res/drawable-v24/ic_nombre.xml" value="0.3785" />
+        <entry key="app/src/main/res/drawable-v24/ic_volver.xml" value="0.385" />
+        <entry key="app/src/main/res/drawable-v24/ic_volver_azul.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/bordeseleccion.xml" value="0.2355" />
+        <entry key="app/src/main/res/drawable/bordesredazul.xml" value="0.41" />
+        <entry key="app/src/main/res/drawable/bordesredazul_invert.xml" value="0.385" />
+        <entry key="app/src/main/res/drawable/fondovistapedidos.xml" value="0.1125" />
+        <entry key="app/src/main/res/drawable/ic_agendarpedido.xml" value="0.1125" />
+        <entry key="app/src/main/res/drawable/ic_agregarproductos.xml" value="0.2175" />
+        <entry key="app/src/main/res/drawable/ic_flechair.xml" value="0.1125" />
+        <entry key="app/src/main/res/drawable/selector_tab.xml" value="0.1805" />
+        <entry key="app/src/main/res/drawable/shape_tab_selected.xml" value="0.1805" />
+        <entry key="app/src/main/res/layout/activity_biblioteca.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_formulario_dipolizar.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_inicio.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_inicio_sesion.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_interior_dipolizada.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_interior_empresa.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_llamadas.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_nuevo_registro.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_sin_conexion.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/asignadas_vista.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/dipolizadas_vista.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_biblioteca.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/item_empresa.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/item_llamada.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/pedidosvista.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menugeneral.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

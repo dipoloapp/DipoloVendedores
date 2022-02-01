@@ -1,0 +1,14 @@
+<!--
+  ~ Copyright (c) 2020. Todos los Derechos Reservados.
+  ~ Código escrito y desarrollado por Ricardo Morgado.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="22.53dp"
+    android:height="21.62dp"
+    android:viewportWidth="22.53"
+    android:viewportHeight="21.62">
+    <path
+        android:fillColor="#404294"
+        android:pathData="M21.06,8.88H13.28V1.42A1.45,1.45 0,0 0,11.8 0H10.73A1.44,1.44 0,0 0,9.26 1.42V8.88H1.48A1.45,1.45 0,0 0,0 10.3v1a1.45,1.45 0,0 0,1.48 1.42H9.26v7.47a1.44,1.44 0,0 0,1.47 1.41H11.8a1.44,1.44 0,0 0,1.48 -1.41V12.74h7.78a1.44,1.44 0,0 0,1.47 -1.42v-1a1.45,1.45 0,0 0,-1.47 -1.42" />
+</vector>

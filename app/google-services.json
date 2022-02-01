@@ -1,0 +1,171 @@
+{
+  "project_info": {
+    "project_number": "653920156827",
+    "firebase_url": "https://dipolo-app.firebaseio.com",
+    "project_id": "dipolo-app",
+    "storage_bucket": "dipolo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653920156827:android:73b1bf74351a64dc335a3e",
+        "android_client_info": {
+          "package_name": "com.app.dipolo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653920156827-d7ai0srhdd2mrd01q3ea2l37h9u33ls6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.dipolo",
+            "certificate_hash": "69438240f2e272b586fcaa0d580c86a7ff259e71"
+          }
+        },
+        {
+          "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6Y4Mk8fCkJBXSGLJ22PFjTaPFTMgmBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "653920156827-5ub55pvu2ssr7pea8n88ep5abdg4orae.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "test"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653920156827:android:8dc6885f6f118036335a3e",
+        "android_client_info": {
+          "package_name": "com.app.dipolorepartidores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6Y4Mk8fCkJBXSGLJ22PFjTaPFTMgmBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "653920156827-5ub55pvu2ssr7pea8n88ep5abdg4orae.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "test"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653920156827:android:d9356391a7807d99335a3e",
+        "android_client_info": {
+          "package_name": "com.dipolo.vendedores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6Y4Mk8fCkJBXSGLJ22PFjTaPFTMgmBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "653920156827-5ub55pvu2ssr7pea8n88ep5abdg4orae.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "test"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653920156827:android:08d5cbfa90154ad7335a3e",
+        "android_client_info": {
+          "package_name": "com.example.qrdipolo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653920156827-k9vpbs48407gteo5t4kbudmnk8qvlat6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qrdipolo",
+            "certificate_hash": "3777caaa2ca198cdbc4280a35427c8a1ba1676ce"
+          }
+        },
+        {
+          "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6Y4Mk8fCkJBXSGLJ22PFjTaPFTMgmBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653920156827-mdmapb90lm76dm6jsmdvq8m2pc05u8gm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "653920156827-5ub55pvu2ssr7pea8n88ep5abdg4orae.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

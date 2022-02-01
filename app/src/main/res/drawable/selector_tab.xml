@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021. Todos los Derechos Reservados.
+  ~ Código escrito y desarrollado por Ricardo Morgado.
+  -->
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- drawable for selected tab -->
+    <item
+        android:drawable="@drawable/shape_tab_selected"
+        android:state_selected="true"/>
+
+    <!-- drawable for unselected tab -->
+    <item
+        android:drawable="@drawable/shape_tab_un_selected"
+        android:state_selected="false"/>
+
+</selector>
